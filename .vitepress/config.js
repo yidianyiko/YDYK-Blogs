@@ -40,7 +40,7 @@ async function getConfig() {
       ],
     },
     dest: "public",
-    base: Blog,
+    base: env,
   };
   return config;
 }
