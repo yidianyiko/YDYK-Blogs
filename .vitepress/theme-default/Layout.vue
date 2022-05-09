@@ -111,13 +111,13 @@ export default {
           },
           {
             icon: "icon-github",
-            link: "https://github.com/gelxgx",
+            link: "https://github.com/yidianyiko",
             event: false,
           },
         ],
-        nickName: "瘦虎",
-        skill: ["🔨 Vue", "🧑🏻‍💻 切图", "🍻 喝酒"],
-        synopsis:["前端切图仔，就职于百度网盘团队","努力学习React、TypeScrpt，偶尔研究有趣的源码"],
+        nickName: "YDYK"
+        skill: ["🔨 编程", "🧑🏻‍💻 学习", "🍻 思考"],
+        synopsis:["小白一枚"],
       },
     };
   },
