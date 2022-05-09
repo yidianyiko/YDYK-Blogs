@@ -1,0 +1,1 @@
+import{q as e,g as t}from"./common-283f1541.js";const r='{"title":"Home","frontmatter":{"page":true,"home":true,"date":"2022-05-09T00:00:00.000Z","title":"首页","describe":"首页"},"relativePath":"index.md","lastUpdated":1652063735038.8625}';var a={};a.render=function(r,a,o,d,i,m){return e(),t("div")};export{r as __pageData,a as default};
