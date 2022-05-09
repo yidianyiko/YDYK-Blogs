@@ -7,22 +7,24 @@
     </footer>
     <p class="platform">
       以上皆为
-      <a href="javascript:;">纪年</a> 文章发布平台
+      <a href="javascript:;">瘦虎</a> 文章发布平台
     </p>
     <p class="platform">
       Copyright &copy; 2020-2021
-      <a href="https://github.com/jexlau">@JexLau</a>
+      <a href="https://github.com/gelxgx">@Gelxgx</a>
     </p>
   </div>
 </template>
 
 <script>
 import juejin from "../../images/juejin.png"
+import yuque from "../../images/yuque.png"
 export default {
   setup() {
     const data = {
       platform: [
-        { href: "https://juejin.cn/user/3175045313607534", icon: juejin },
+        { href: "https://juejin.cn/user/465848663286712", icon: juejin },
+        { href: "https://www.yuque.com/shouhu-pelkv", icon: yuque}
       ]
     }
     return {

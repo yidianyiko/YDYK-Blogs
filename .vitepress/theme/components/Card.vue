@@ -24,7 +24,9 @@
         <div class="skill-wrap">
           <span class="skill" v-for="(item, index) in config.skill" :key="item">{{ item }}</span>
         </div>
-        <p class="introduce">{{ config.synopsis }}</p>
+        <div v-for="(item,index) in config.synopsis">
+          <p class="introduce">{{ item }}</p>
+        </div>
         <div v-if="showModal" class="modal" @click.self="showModal = false">
           <div>
             <img :src="modalUrl" />
@@ -62,6 +64,9 @@ export default {
       this.modalUrl = url;
       this.showModal = true;
     },
+    getMagnify() {
+      console.log(111);
+    }
   },
   created() { },
   mounted() { },
@@ -215,7 +220,7 @@ p {
 }
 .introduce {
   margin-top: 20px;
-  text-indent: 2em;
+  /* text-indent: 2em; */
 }
 .skill-wrap {
   display: flex;

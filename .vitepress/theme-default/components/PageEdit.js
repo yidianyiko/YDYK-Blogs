@@ -1,5 +1,5 @@
 import { computed } from 'vue';
-import OutboundLink from './icons/OutboundLink.vue';
+// import OutboundLink from './icons/OutboundLink.vue';
 import { endingSlashRE, isExternal } from '../utils';
 import { usePageData, useSiteData } from 'vitepress';
 function createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
@@ -24,7 +24,7 @@ function createEditLink(repo, docsRepo, docsDir, docsBranch, path) {
 }
 export default {
     components: {
-        OutboundLink
+        // OutboundLink
     },
     setup() {
         const pageData = usePageData();

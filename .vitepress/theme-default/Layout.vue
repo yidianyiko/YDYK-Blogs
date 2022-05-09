@@ -21,7 +21,7 @@
     <div class="home-bg" v-if="enableHome">
       <div class="content-bg">
         <h1>
-          <p>人间总有一两风 填我十万八千梦</p>
+          <p>保持耐心，无限进步</p>
         </h1>
       </div>
     </div>
@@ -111,14 +111,13 @@ export default {
           },
           {
             icon: "icon-github",
-            link: "https://github.com/jexlau",
+            link: "https://github.com/gelxgx",
             event: false,
           },
         ],
-        nickName: "纪年",
-        skill: ["👹 日语", "🖋️ 练字", "🍵 喝茶"],
-        synopsis:
-          "19年毕业的程序媛，目前在巩固前端基础，简单的事情重复做，重复的事情用心做。",
+        nickName: "瘦虎",
+        skill: ["🔨 Vue", "🧑🏻‍💻 切图", "🍻 喝酒"],
+        synopsis:["前端切图仔，就职于百度网盘团队","努力学习React、TypeScrpt，偶尔研究有趣的源码"],
       },
     };
   },
@@ -224,12 +223,12 @@ export default {
 .content-bg h1 p {
   font: bold 200% Consolas, Monaco, monospace;
   border-right: 0.1em solid;
-  width: 15em; /* fallback */
+  width: 10em; /* fallback */
   /* width: 30ch; # of chars */
   margin: 2em 1em;
   white-space: nowrap;
   overflow: hidden;
-  animation: typing 5s steps(12, end),
+  animation: typing 3s steps(12, end),
     /*英文速度*/ blink-caret 0.5s step-end infinite alternate;
 }
 .content-bg {

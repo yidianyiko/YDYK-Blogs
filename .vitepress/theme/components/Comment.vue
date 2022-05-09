@@ -8,17 +8,18 @@
     mounted() {
       const commentConfig = {
         // 是否开启
-        enable: false,
+        enable: true,
         // clientID
-        clientID: "a8296833d44633072517",
+        clientID: "5291b85384e2d6e9306a",
         // clientSecret
-        clientSecret: "8af7efce84642c54ce9e6206fd1da2b01952a3d1",
+        clientSecret: "ae7841b520456eb854421561a0efa7500a99567b",
         // 评论项目名
-        repo: 'blog-comments',
-        owner: 'JexLau',
-        admin: ['JexLau'],
-        githubID:'JexLau',
+        repo: 'blog',
+        owner: 'gelxgx',
+        admin: ['gelxgx'],
+        // githubID:'gelxgx',
         id: decodeURI(window.location.pathname),
+        proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
         language:'zh-CN',
         distractionFreeMode: true
       };

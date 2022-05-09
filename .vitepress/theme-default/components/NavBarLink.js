@@ -1,7 +1,7 @@
 import { defineComponent, computed } from 'vue';
 import { useRoute } from 'vitepress';
 import { withBase, isExternal } from '../utils';
-import OutboundLink from './icons/OutboundLink.vue';
+// import OutboundLink from './icons/OutboundLink.vue';
 const normalizePath = (path) => {
     path = path
         .replace(/#.*$/, '')
@@ -14,7 +14,7 @@ const normalizePath = (path) => {
 };
 export default defineComponent({
     components: {
-        OutboundLink
+        // OutboundLink
     },
     props: {
         item: {

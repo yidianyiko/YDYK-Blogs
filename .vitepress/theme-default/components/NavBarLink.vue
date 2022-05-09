@@ -9,7 +9,7 @@
       :aria-label="item.ariaLabel"
     >
       {{ item.text }}
-      <OutboundLink v-if="isExternalLink" />
+      <!-- <OutboundLink v-if="isExternalLink" /> -->
     </a>
   </div>
 </template>
