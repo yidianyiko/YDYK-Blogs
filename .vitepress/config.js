@@ -12,7 +12,7 @@ async function getConfig() {
             "width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no",
         },
       ],
-      ["meta", { name: "keywords", content: "瘦虎" }],
+      ["meta", { name: "keywords", content: "YDYK" }],
       ["link", { rel: "icon", href: "/favicon.ico" }],
       // 引入 Gitalk
       [
@@ -25,12 +25,12 @@ async function getConfig() {
       ["script", { src: "https://lib.baomitu.com/gitalk/1.7.0/gitalk.min.js" }],
       ["script", { src: "https://lib.baomitu.com/axios/0.21.1/axios.js" }],
     ],
-    title: "瘦虎",
+    title: "YDYK",
     themeConfig: {
       displayAllHeaders: true,
       logo: "/favicon.ico",
       pages: await getPages(),
-      author: "瘦虎",
+      author: "YDYK",
       search: true,
       nav: [
         { text: "🏠 首页", link: "/index" },
