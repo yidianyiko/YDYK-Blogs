@@ -7,11 +7,11 @@
     </footer>
     <p class="platform">
       以上皆为
-      <a href="javascript:;">瘦虎</a> 文章发布平台
+      <a href="javascript:;">一点一口</a> 文章发布平台
     </p>
     <p class="platform">
-      Copyright &copy; 2020-2021
-      <a href="https://github.com/gelxgx">@Gelxgx</a>
+      Copyright &copy; 
+      <a href="https://github.com/yidianyiko">@yidianyiko</a>
     </p>
   </div>
 </template>
@@ -23,8 +23,8 @@ export default {
   setup() {
     const data = {
       platform: [
-        { href: "https://juejin.cn/user/465848663286712", icon: juejin },
-        { href: "https://www.yuque.com/shouhu-pelkv", icon: yuque}
+        { href: "https://juejin.cn/user/2674448737766013", icon: juejin },
+        { href: "", icon: yuque}
       ]
     }
     return {
